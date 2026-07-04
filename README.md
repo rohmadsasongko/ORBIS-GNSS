@@ -8,13 +8,26 @@
 
 GNSS PPK / Static processing (RTKLIB demo5) and photogrammetry support, in one native Windows app.
 
-![version](https://img.shields.io/badge/version-1.5.0-2563eb) ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-444) ![license](https://img.shields.io/badge/license-Proprietary-555)
+![version](https://img.shields.io/badge/version-1.6.0-2563eb) ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-444) ![license](https://img.shields.io/badge/license-Proprietary-555)
 
 ### ⬇️ [Download the latest installer](../../releases/latest)
 
 </div>
 
 ---
+
+## ✨ Highlights
+
+- **Automatic PPK** — one click runs the RTKLIB demo5 kinematic solve
+  (auto forward/backward selection) **plus a built-in QC report** that tells
+  you honestly how far the two passes agree, per epoch, with plain-language
+  advice — so a "100% Fix" can never mislead you again.
+- **Automatic photo-mismatch detection & tagging** — Photo QC matches every
+  photo to its event mark by EXIF time (camera clock offset found
+  automatically), flags test shots / missing events, quarantines them in one
+  click (undo-able), then geotags — photo count always equals event count.
+- **Browser-style workspace tabs** — run several jobs side by side; a solve
+  keeps running while you review another flight in a second tab.
 
 ## Install (Windows 10/11, 64-bit)
 
@@ -41,14 +54,14 @@ Activation is **permanent** and works fully **offline** afterwards. Updates and 
 |-----|--------------|
 | **UBX Viewer** | u-blox flight log analysis |
 | **MRK Viewer** | DJI photo position explorer |
-| **Event.pos Viewer** | RTKLIB event-position explorer (map · charts · table · export) |
+| **Event.pos Viewer** | RTKLIB event-position explorer (map · charts · table · export · **Photo QC**) — folder or single file |
 | **OBS Viewer** | RINEX `.obs` batch scanner |
 | **Baseline Check** | Base ↔ drone PPK quality |
 | **RINEX Observe** | RINEX analysis & tools — merge · cut · decimate · **version convert (2.11 ↔ 3.x)** |
 | **iBASE Viewer** | Base-station UBX `.R` scanner |
 | **SBG Viewer** | Trinity LiDAR `.sbg` scanner |
 | **Time Sync** | Base ↔ Rover overlap checker |
-| **Processing** | GNSS PPK / Static via RTKLIB demo5 |
+| **Processing** | GNSS PPK / Static via RTKLIB demo5 — auto F/B, **solution QC**, Photo QC, geotag |
 
 Plus interactive maps & charts, photogrammetry helpers (auto photo IDs, camera-position CSV export), and a built-in self-updater.
 
