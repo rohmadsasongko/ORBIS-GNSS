@@ -8,7 +8,7 @@
 
 GNSS PPK / Static processing (RTKLIB demo5) and photogrammetry support, in one native Windows app.
 
-![version](https://img.shields.io/badge/version-1.6.0-2563eb) ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-444) ![license](https://img.shields.io/badge/license-Proprietary-555)
+![version](https://img.shields.io/badge/version-1.7.0-2563eb) ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-444) ![license](https://img.shields.io/badge/license-Proprietary-555)
 
 ### ⬇️ [Download the latest installer](../../releases/latest)
 
@@ -54,9 +54,9 @@ Activation is **permanent** and works fully **offline** afterwards. Updates and 
 |-----|--------------|
 | **UBX Viewer** | u-blox flight log analysis |
 | **MRK Viewer** | DJI photo position explorer |
-| **Event.pos Viewer** | RTKLIB event-position explorer (map · charts · table · export · **Photo QC**) — folder or single file |
+| **Event.pos Viewer** | RTKLIB event-position explorer (map · charts · table · export · **Photo QC · Photo geotag**) — folder or single file |
 | **OBS Viewer** | RINEX `.obs` batch scanner |
-| **Baseline Check** | Base ↔ drone PPK quality |
+| **Baseline Check** | Base ↔ rover quality — base RINEX 2/3 / UBX / .R; rover MRK / UBX / .pos / .sbg / RINEX |
 | **RINEX Observe** | RINEX analysis & tools — merge · cut · decimate · **version convert (2.11 ↔ 3.x)** |
 | **iBASE Viewer** | Base-station UBX `.R` scanner |
 | **SBG Viewer** | Trinity LiDAR `.sbg` scanner |
