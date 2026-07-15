@@ -8,7 +8,7 @@
 
 GNSS PPK / Static processing (RTKLIB demo5) and photogrammetry support, in one native Windows app.
 
-![version](https://img.shields.io/badge/version-1.7.0-2563eb) ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-444) ![license](https://img.shields.io/badge/license-Proprietary-555)
+![version](https://img.shields.io/badge/version-1.7.1-2563eb) ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-444) ![license](https://img.shields.io/badge/license-Proprietary-555)
 
 ### ⬇️ [Download the latest installer](../../releases/latest)
 
