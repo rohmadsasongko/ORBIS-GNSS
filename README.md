@@ -8,7 +8,7 @@
 
 GNSS PPK / Static processing (RTKLIB demo5) and photogrammetry support, in one native Windows app.
 
-![version](https://img.shields.io/badge/version-1.7.1-2563eb) ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-444) ![license](https://img.shields.io/badge/license-Proprietary-555)
+![version](https://img.shields.io/badge/version-1.8.0-2563eb) ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-444) ![license](https://img.shields.io/badge/license-Proprietary-555)
 
 ### ⬇️ [Download the latest installer](../../releases/latest)
 
@@ -28,6 +28,12 @@ GNSS PPK / Static processing (RTKLIB demo5) and photogrammetry support, in one n
   click (undo-able), then geotags — photo count always equals event count.
 - **Browser-style workspace tabs** — run several jobs side by side; a solve
   keeps running while you review another flight in a second tab.
+- **Mission Control** — point at a whole project: every flight is discovered
+  and paired to its `events.pos` by EXIF time, reported as a dry-run plan,
+  then quarantined + geotagged in one click (undo-able).
+- **Client-ready PDF reports** — one button in the main viewers exports a
+  polished report with a satellite map snapshot of your flight, tables and
+  an ORBIS GNSS watermark.
 
 ## Install (Windows 10/11, 64-bit)
 
@@ -38,20 +44,23 @@ GNSS PPK / Static processing (RTKLIB demo5) and photogrammetry support, in one n
 
 > If Windows SmartScreen appears: **More info → Run anyway.**
 
-## Activation (one-time, free)
+## Activation (free, 6-month key)
 
-ORBIS is **free but requires a one-time activation key per PC**:
+ORBIS is **free but requires an activation key per PC** (valid 6 months):
 
 1. On first launch you'll see the **Activate ORBIS** screen.
 2. Fill the **"Request a key"** form (Name · Email · Organisation) and click **Send request** — your request is emailed to the developer.
 3. You'll receive your activation key by email — paste it into **"Already have a key?"** → **Activate**.
 
-Activation is **permanent** and works fully **offline** afterwards. Updates and reinstalls keep your activation.
+Activation works fully **offline** afterwards; updates and reinstalls keep it.
+Keys are **valid for 6 months** — ORBIS warns you 14 days before expiry
+(About shows "Valid until"), then simply request a new key from the same form.
 
 ## Features
 
 | Tab | What it does |
 |-----|--------------|
+| **Mission Control** | Batch QC & geotag a whole project — auto flight↔events pairing by EXIF time, dry-run report, one-click quarantine+tag, PDF export |
 | **UBX Viewer** | u-blox flight log analysis |
 | **MRK Viewer** | DJI photo position explorer |
 | **Event.pos Viewer** | RTKLIB event-position explorer (map · charts · table · export · **Photo QC · Photo geotag**) — folder or single file |
